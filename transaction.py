@@ -6,7 +6,7 @@ class Transaction(object):
     Class of Transaction
     Between two Users
     """
-    def __init__(self, sender: User, recipient: User, num: float):
+    def __init__(self, sender: User, recipient: User, valuue: float):
         self.sender = sender
         self.recipient = recipient
-        self.num = num
+        self.value = value
